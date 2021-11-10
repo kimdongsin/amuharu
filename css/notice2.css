@@ -1,0 +1,416 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 100%;
+}
+
+a{
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'reg';
+    src: url(../fonts/MaruBuri-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'reg1';
+    src: url(../fonts/MaruBuri-Regular.otf);
+}
+
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 2px solid #E6E6E6;
+    padding: 0 30px;
+    background-color: white;
+}
+
+.header__nav__left{
+    display: flex;
+}
+
+.header__nav__left > a{
+    margin-right: 5px;
+}
+
+.header__nav__left span{
+    display: flex;
+    align-items: center;
+    color: #754737;
+    font-family: 'reg';
+    font-size: 20px;
+}
+
+.header__nav__left span p:last-child{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* 네비바 끝 */
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container{
+    width: 1002px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__container__box1{
+    width: 1002px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__container__box1 > p{
+    font-size: 24px;
+    font-family: 'reg1';
+    color: #754737;
+    margin-top: 67px;
+}
+
+.container__box1__buttom{
+    display: flex;
+}
+
+.container__box1__buttom > *:first-child{
+    margin-right: 10px;
+}
+
+.buttom__left__one{
+    width: 64px;
+    height: 24px;
+    border: 1px solid #6A3E30;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6A3E30;
+    font-size: 12px;
+    font-family: 'reg1';
+}
+
+.container__box1__con{
+    width: 1002px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.container__box1__buttom2{
+    display: flex;
+    align-items: center;
+}
+
+.container__box1__buttom2 span{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'reg1';
+    color: #754737;
+}
+
+.container__box1__buttom2 span p:first-child{
+    margin-right: 3px;
+    font-size: 16px;
+}
+
+/* 테이블  */
+
+.main__container__box2{
+    width: 1002px;
+    margin: 67px 0 60px 0;
+}
+
+.main__container__box2 table{
+    width: 1002px;
+    font-size: 14px;
+}
+
+.main__container__box2 table tr:first-child{
+    border: 1px solid #5F5F5F;
+    border-left: none;
+    border-right: none;
+    height: 57px;
+}
+
+th, td{
+    vertical-align: middle;
+}
+
+.main__container__box2 table tbody tr th{
+    color: #754737;
+    font-weight: bold;
+}
+
+.m2{
+    width: 10%;
+}
+
+.m3{
+    width: 45%;
+    text-align: start;
+}
+
+.--padding1{
+    width: 40%;
+    padding-left: 90px;
+}
+
+.m4{
+    width: 10%;
+}
+
+.m5{
+    width: 10%;
+}
+
+.m6{
+    width: 10%;
+}
+
+.m7{
+   width: 15%;
+}
+
+.main__container__box2 table tr:not(:first-child){
+    height: 77px;
+    border-bottom: 1px solid #D1D1D1;
+    text-align: center;
+}
+
+.main__container__box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'reg1';
+    margin-bottom: 70px;
+}
+
+.container__box3__buttom{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #6A3E30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6A3E30;
+}
+
+.container__box3__buttom1{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #6A3E30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main__container__box3 > *:not(:first-child){
+    margin-left: 10px;
+}
+
+.main__container__box2 > tbody {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+th, td{
+    display: table-cell;
+}
+
+.c-mobile{
+    display: none;
+}
+
+.mobile_wrap{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #7070705c;
+    border-bottom: 1px solid #7070705c;
+}
+
+.mobile__wrap__box{
+    padding: 12px 0;
+}
+
+.mobile__wrap__box:not(:last-child){
+    border-bottom: 1px solid #7070705c;
+}
+
+.mobile__wrap__box > p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'reg1';
+}
+
+.wrap__box__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+    font-size: 12px;
+    font-family: 'reg';
+    color: rgba(0,0,0,0.4);
+}
+
+.box__text__one > span:not(:last-child){
+    margin-right: 7px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px){
+    .header__nav{
+        width: 100%;
+    }
+
+    .header__nav__left > a:last-child{
+        display: none;
+    }
+
+    .header__nav__right{
+        background-image: url(../image/그룹\ 8387.png);
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+
+    .header__nav__right > img{
+        display: none;
+    }
+
+    .header__nav__box2 > a:first-child{
+        display: none;
+    }
+
+    .main__container__box2{
+        display: none;
+    }
+
+    .main__container{
+        width: 100%;
+    }
+    
+    .main__container__box1{
+        width: 100%;
+    }
+
+    .c-mobile{
+        display: initial;
+        width: 335px;
+        margin: 25px 0;
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px){
+    .header__nav{
+        width: 100%;
+    }
+
+    .header__nav__left > a:last-child{
+        display: none;
+    }
+
+    .header__nav__right{
+        background-image: url(../image/그룹\ 8387.png);
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+
+    .header__nav__right > img{
+        display: none;
+    }
+
+    .header__nav__box1 > p{
+        display: none;
+    }
+    
+    .header__nav__box2 > a:first-child{
+        display: none;
+    }
+
+    .main__container__box2{
+        display: none;
+    }
+
+    .main__container{
+        width: 100%;
+    }
+    
+    .main__container__box1{
+        width: 100%;
+    }
+
+    .c-mobile{
+        display: initial;
+        width: 280px;
+        margin: 25px 0;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 321px){
+    .header__nav{
+        width: 100%;
+    }
+
+    .header__nav__left > a:last-child{
+        display: none;
+    }
+
+    .header__nav__right{
+        background-image: url(../image/그룹\ 8387.png);
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+
+    .header__nav__right > img{
+        display: none;
+    }
+    
+    .header__nav__box1 > p{
+        display: none;
+    }
+    
+    .header__nav__box2 > a:first-child{
+        display: none;
+    }
+
+    .main__container__box2{
+        display: none;
+    }
+
+    .main__container{
+        width: 100%;
+    }
+    
+    .main__container__box1{
+        width: 100%;
+    }
+
+    .c-mobile{
+        display: initial;
+        width: 240px;
+        margin: 25px 0;
+    }
+}

@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'med';
+    src: url(../fonts/Noto_Sans_KR/NotoSansKR-Medium.otf);
+}
+
+@font-face {
+    font-family: 'reg';
+    src: url(../fonts/Noto_Sans_KR/NotoSansKR-Regular.otf);
+}
+
+@font-face {
+    font-family: 'otf';
+    src: url(../fonts/Noto_Sans_KR/NotoSansKR-Medium.otf);
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.2);
+    position: relative;
+}
+
+.header__nav__box1{
+    display: flex;
+    align-items: flex-start;   
+}
+
+.header__nav__box1 > p{
+    color: #754737;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.nav__box2__x{
+    background-image: url(../image/그룹\ 8387.png);
+    width: 40px;
+    height: 40px;
+}
+
+.header__nav__box1 > img{
+    margin-top: 5px;
+}
+
+.nav__box2__search{
+    width: 1002px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+
+.nav__box2__search > input{
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    width: 954px;
+    height: 48px;
+    padding: 0px 15px;
+}
+
+.nav__box2__search > button{
+    background-image: url(../image/그룹\ 8561.png);
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-left: none;
+}
+
+.main{
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 111px;
+}
+
+.main__from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1002px;
+}
+
+.main__from__menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main__from__box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #754737;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.main__from__box1 > p:first-child{
+    font-size: 20px;
+    font-family: 'med';
+}
+
+.main__from__box1 > p:last-child{
+    font-size: 14px;
+    font-family: 'reg';
+}
+
+.main__from__box1 > div{
+    display: flex;
+    align-items: center;
+}
+
+.main__from__box1 > div > p{
+    margin-left: 5px;
+}
+
+.from__menu__one{
+    width: 143px;
+    height: 66px;
+    border: none;
+    border-top: 2px solid #432525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'reg';
+    background-color: #F8F8F8;
+    margin-top: -2px;
+}
+
+.from__menu__two{
+    border: none;
+    width: 143px;
+    height: 66px;
+    font-size: 18px;
+    font-family: 'reg';
+    color: rgba(67, 37, 37, 0.3);
+    background-color: #F8F8F8;
+}
+
+.wrap__li__right{
+    background-image: url(../image/타원\ 4.png);
+    width: 80px;
+    height: 80px;
+}
+
+.wrap__li__right2{
+    background-image: url(../image/타원\ 5.png);
+    width: 80px;
+    height: 80px;
+}
+
+.wrap__li__right3{
+    background-image: url(../image/타원\ 6.png);
+    width: 80px;
+    height: 80px;
+}
+
+.wrap__li__right4{
+    background-image: url(../image/타원\ 7.png);
+    width: 80px;
+    height: 80px;
+}
+
+.wrap__li__right5{
+    background-image: url(../image/타원\ 8.1.png);
+    width: 80px;
+    height: 80px;
+}
+
+.wrap__li__right6{
+    background-image: url(../image/타원\ 9.1.png);
+    width: 80px;
+    height: 80px;
+}
+
+.wrap__li__right7{
+    background-image: url(../image/타원\ 10.1.png);
+    width: 80px;
+    height: 80px;
+}
+
+.wrap__li__right8{
+    background-image: url(../image/타원\ 811.png);
+    width: 80px;
+    height: 80px;
+}
+.from__wrap__li{
+    display: flex;
+    justify-content: space-between;
+    width: 486px;
+    height: 140px;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 0 30px;
+    border-radius: 20px;
+}
+
+.wrap__li__left > h1{
+    font-size: 16px;
+    color: #432525;
+}
+
+.wrap__li__left > span{
+    color: #575757;
+    font-size: 12px;
+    margin: 6px 0 26px;
+    display: block;
+}
+
+.li__left__text{
+    display: flex;
+    font-size: 12px;
+    color: #754737;
+}
+
+.left__text__gle{
+    margin-right: 13px;
+}
+
+.main__from__wrap{
+    width: 1002px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__from__wrap > li{
+    margin-bottom: 30px;
+}
+
+.main__container__box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'reg1';
+    margin-top: 25px;
+}
+
+.container__box3__buttom{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #6A3E30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6A3E30;
+}
+
+.container__box3__buttom1{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #6A3E30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main__container__box3 > *:not(:first-child){
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px){
+    .header__nav{
+        width: 100%;
+    }
+
+    .header__nav__box1 > p {
+        display: none;
+    }
+
+    .nav__box2__search{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .nav__box2__search > input{
+        width: 335px;
+    }
+
+    .main__from{
+        width: 100%;
+    }
+
+    .main__from__box1{
+        width: 335px;
+    }
+
+    .main__from__wrap{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .from__wrap__li{
+        width: 335px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px){
+    .header__nav{
+        width: 100%;
+    }
+
+    .header__nav__box1 > p {
+        display: none;
+    }
+
+    .nav__box2__search{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .nav__box2__search > input{
+        width: 280px;
+    }
+
+    .main__from{
+        width: 100%;
+    }
+
+    .main__from__box1{
+        width: 280px;
+    }
+
+    .main__from__wrap{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .from__wrap__li{
+        width: 280px;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 321px){
+    .header__nav{
+        width: 100%;
+    }
+
+    .header__nav__box1 > p {
+        display: none;
+    }
+
+    .nav__box2__search{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .nav__box2__search > input{
+        width: 270px;
+    }
+
+    .main__from{
+        width: 100%;
+    }
+
+    .main__from__box1{
+        width: 270px;
+    }
+
+    .main__from__wrap{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .from__wrap__li{
+        width: 270px;
+        padding: 0 15px;
+    }
+}

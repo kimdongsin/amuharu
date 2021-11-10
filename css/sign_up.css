@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(../fonts/MaruBuri-Regular.ttf) format('truetype');
+}
+
+#container{
+    height: 100%;
+}
+
+.main{
+    background-color: #FDFCF8;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__box{
+    width: 486px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+    color: #754737;
+}
+
+.main__box > h1{
+    font-family: 'MaruBuri';
+    font-size: 62px;
+    color: #754737;
+    margin: 82px 0 43px;
+}
+
+.main__box__form{
+    width: 100%;
+}
+
+.main__box__form > *:not(:last-child){
+    margin-top: 15px;
+}
+
+.box__form__type1 input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+.box__form__type1 p{
+    margin-bottom: 8px;
+}
+
+.box__form__type2 input{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+.box__form__type2 p{
+    margin-bottom: 8px;
+}
+
+.box__form__type3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.box__form__type3 > span a{
+    font-weight: bold;
+    color: #754737;
+}
+
+.box__form__type3 input{
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+}
+
+.form__type3__top{
+    display: flex;
+}
+
+.main__box__butbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 58px 0 65px;
+}
+
+.main__box__butbox div:first-child{
+    width: 45%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #754737;
+}
+
+.main__box__butbox div:last-child{
+    width: 45%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #694D3E;
+    color: white;
+    border-radius: 20px;
+}
+
+.butc1{
+    color: #754737;
+}
+
+.butc2{
+    color: white;
+}
+
+/* sign_up.html */
+
+@media screen and (min-width: 376px) and (max-width: 426px){
+    .main__box h1{
+        display: none;
+    }
+
+    .main__box::before{
+        content: "회원 가입";
+        color: #754737;
+        font-size: 36px;
+        margin-bottom: 35px;
+        margin-top: 70px;
+    }
+
+    .main__box{
+        width: 315px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px){
+    .main__box h1{
+        display: none;
+    }
+
+    .main__box::before{
+        content: "회원 가입";
+        color: #754737;
+        font-size: 36px;
+        margin-bottom: 35px;
+        margin-top: 70px;
+    }
+
+    .main__box{
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 321px){
+    .main__box h1{
+        display: none;
+    }
+
+    .main__box::before{
+        content: "회원 가입";
+        color: #754737;
+        font-size: 36px;
+        margin-bottom: 35px;
+        margin-top: 70px;
+    }
+
+    .main__box{
+        width: 240px;
+    }
+}
