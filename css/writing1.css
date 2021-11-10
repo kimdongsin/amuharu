@@ -289,6 +289,10 @@
     margin-bottom: 97px;
 }
 
+.none{
+    display: none;
+}
+
 /* writing1 */
 
 @media screen and (min-width: 376px) and (max-width: 426px){
@@ -316,10 +320,6 @@
     .main__from{
         width: 335px;
     }
-
-    .none{
-        display: none;
-    }
     
     .from__box5__textbox{
         width: 100%;
@@ -328,6 +328,11 @@
     .from__box5__menu{
         display: block;
     }
+
+    .from__box3__buttom{
+        font-size: 12px;
+    }
+    
 }
 
 @media screen and (min-width: 321px) and (max-width: 376px){
@@ -356,16 +361,16 @@
         width: 320px;
     }
 
-    .none{
-        display: none;
-    }
-    
     .from__box5__textbox{
         width: 100%;
     }
     
     .from__box5__menu{
         display: block;
+    }
+
+    .from__box3__buttom{
+        font-size: 12px;
     }
 }
 
@@ -392,11 +397,7 @@
     }
 
     .main__from{
-        width: 290px;
-    }
-
-    .none{
-        display: none;
+        width: 310px;
     }
     
     .from__box5__textbox{
@@ -405,5 +406,9 @@
     
     .from__box5__menu{
         display: block;
+    }
+
+    .from__box3__buttom{
+        font-size: 12px;
     }
 }
