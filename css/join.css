@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(../fonts/MaruBuri-Regular.ttf) format('truetype');
+}
+
+body{
+    background-color: #FDFCF8;
+    height: 100vh;
+}
+
+.main__title2{
+    width: 486px;
+    height: 486px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.main__box{
+    width: 314px;
+    height: 373px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__title > h1{
+    font-weight: 500;
+    font-size: 64px;
+    color: #754737;
+    font-family: 'MaruBuri';
+}
+
+.main__box > p{
+    color: #754737;
+    font-size: 36px;
+}
+
+.main__title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 67px;
+}
+
+.main__box__input{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 44px;
+}
+
+.main__box__input input:first-child{
+    height: 46px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 1px solid #D1D1D1;
+}
+
+.main__box__input input:last-child{
+    height: 46px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 1px solid #D1D1D1;
+    margin: 15px 0px 11px;
+}
+
+.main__box__ch{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 100%;
+    color: #754737;
+    font-weight: 500;
+}
+
+.box__ch__box1{
+    display: flex;
+}
+
+.box__ch__box1 input{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.box__ch__box2 a{
+    color: #754737;
+}
+
+.box__buttombox__b1{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #754737;   
+    border-radius: 30px;
+    margin: 28px 0 15px 0;
+}
+
+.box__buttombox__b1 a{
+    color: white;
+}
+
+.box__buttombox__b2{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #754737;
+    border-radius: 30px;
+}
+
+.box__buttombox__b2 a{
+    color: #754737;
+}
+
+input::placeholder{
+    color: #b1b1b1;
+}
+
+/* join.html */
+
+@media screen and (min-width: 0px) and (max-width: 426px){
+    .main__title2{
+        background-color: #FDFCF8;
+    }
+
+    .box__buttombox__b2{
+        background-color: #ffffff;
+    }
+    
+    .main__title h1{
+        display: none;
+    }
+    
+    .main__title2{
+        width: 315px;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 320px){
+    .main__title2{
+        width: 240px;
+    }
+}
